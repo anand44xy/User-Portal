@@ -1,0 +1,19 @@
+{
+  "name": "user-portal",
+  "version": "1.0.0",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run client\" \"npm run server\" ,",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "mongodb": "^6.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-toastify": "^10.0.5"
+  }
+}
