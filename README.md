@@ -1,6 +1,6 @@
 # User Management Portal
 
-![User Portal Screenshot](https://github.com/anand44xy/User-Portal/blob/main/Frontend/public/Screenshot%20(275).png)
+![User Portal Screenshot](https://github.com/anand44xy/User-Portal/blob/main/Frontend/public/Screenshot%20(338).png)
 
 This project is a **Full-Stack User Management Portal** built using **React** for the frontend and **Node.js/Express** for the backend. The application allows administrators to manage users by providing features like user registration, editing, deletion, and toggling their active/inactive status. The design is responsive, optimized for various screen sizes, and includes a show/hide password functionality for better user experience.
 
