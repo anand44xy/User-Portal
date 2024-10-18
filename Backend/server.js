@@ -10,7 +10,7 @@ server.use(express.json());
 
 // CORS middleware to allow cross-origin requests from frontend (localhost:5173)
 server.use(cors({
-  origin: ['http://localhost:5173', ''], // Allowed frontend origin
+  origin: ['http://localhost:5173', 'https://user-portal-lghe-ot0recxb2-anands-projects-494d208a.vercel.app/.well-known/vercel/toolbar?path=%2F%3FvercelToolbarCode%3DxiEpIB0UCRijFtG'], // Allowed frontend origin
   methods: ['GET', 'POST', 'PATCH', 'DELETE'],
 }));
 
